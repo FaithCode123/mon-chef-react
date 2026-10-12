@@ -4,8 +4,8 @@ const platsDuJour = {
   lundi: { nom: "Riz au poulet", prix: "2500 F", image: "/images/plat8.jpg", desc: "Notre spécialité du lundi" },
   mardi: { nom: "Poisson braisé", prix: "3000 F", image: "/images/poisson.jpg", desc: "Pêche du jour" },
   mercredi: { nom: "Poulet braisé", prix: "3500 F", image: "/images/poulet.jpg", desc: "Le préféré de nos clients" },
-  jeudi: { nom: "Spaghetti bolognaise", prix: "1000 F", image: "/images/plat6.jpg", desc: "Fait maison" },
-  vendredi: { nom: "Attiéké poisson", prix: "2000 F", image: "/images/plat2.jpg", desc: "Spécial week-end" },
+  jeudi: { nom: "Spaghetti bolognaise", prix: "1000 F", image: "/images/spaghetibolognaise.png", desc: "Fait maison" },
+  vendredi: { nom: "Attiéké poisson", prix: "1500 F", image: "/images/plat2.jpg", desc: "Spécial week-end" },
   samedi: { nom: "Légume", prix: "1000 F", image: "/images/plat4.jpg", desc: "Pour bien fêter le week-end" },
   dimanche: { nom: "Riz gras + poulet", prix: "3000 F", image: "/images/plat7.jpg", desc: "Menu famille du dimanche" },
 }

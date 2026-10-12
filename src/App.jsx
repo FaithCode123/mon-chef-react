@@ -6,10 +6,22 @@ import FormulaireCommande from "./components/FormulaireCommande"
 const menu = [
   { name: "Plat Mr Chef", category: "plats", description: "Un plat généreux avec accompagnements.", price: "2500F", image: "/images/plat4.jpg" },
   { name: "Burger maison", category: "sandwichs", description: "Sandwich préparé avec soin.", price: "1500F", image: "/images/plat5.jpg" },
-  { name: "Spécialité du chef", category: "plats", description: "Assiette savoureuse de la maison.", price: "2500F", image: "/plat2.jpg" },
+  { name: "Spécialité du chef", category: "plats", description: "Assiette savoureuse de la maison.", price: "1500F", image: "/plat2.jpg" },
   { name: "Douceur pâtissière", category: "patisserie", description: "Gâteaux pour toutes occasions.", price: "2000F", image: "/images/plat1.jpg" },
   { name: "Poisson braisé", category: "plats", description: "Poisson frais braisé avec frites.", price: "2500F", image: "/images/poisson.jpg" },
   { name: "Poulet braisé", category: "plats", description: "Poulet grillé, frites et crudités.", price: "3000F", image: "/images/poulet.jpg" },
+  { name: "Pâte noir aux légumes", category: "plats", description: "Pâte africaine, accompagné de légume.", price: "2000F", image: "/images/patenoirlegume.jpg" },
+  { name: "Poisson bar", category: "plats", description: "Poisson bar ou thon au frites.", price: "2500F", image: "/images/poissonbar.jpg" },
+  { name: "Aileron au riz parfumé", category: "plats", description: "Aileron au riz parfumé américain.", price: "2000F", image: "/images/rizaileron.jpg" },
+  { name: "Pétit déjeuner", category: "patisserie", description: "Petit déjeuner anglais.", price: "1500F", image: "/images/petitdejeuner.jpg" },
+  { name: "Pâte noire au sauce d'arachide", category: "plats", description: "Pâte noir, accompagné de la sauce d'arachide au poisson.", price: "2000F", image: "/images/patenoirearachide.png" },
+  { name: "Pâte noire au sauce tomate", category: "plats", description: "Pâte noire, accompagné de la sauce tomate et du crincrin et viande.", price: "2000F", image: "/images/patenoirtomate.jpg" },
+  { name: "Spagueti bolognaise", category: "plats", description: "Spagheti bolognaise, accompagné de la viande.", price: "2000F", image: "/images/spaghetibolognaise.png" },
+  { name: "Salade russe panaché", category: "plats", description: "Salade russe panaché, bien assaisonné.", price: "1500F", image: "/images/saladerusse.png" },
+  { name: "Riz blanc", category: "plats", description: "Riz blanc au poisson ou poulet avec de la sauce d'arachide.", price: "1500F", image: "/images/rizblancpoisson.png" },
+  { name: "Sauce goussi", category: "plats", description: "Plat léger à prendre avec la pâte de son choix.", price: "1000F", image: "/images/saucegouci.jpg" },
+  { name: "Spagheti au tomate", category: "plats", description: "Spagheti au sauce tomate, accompagné de deux oeufs.", price: "1000F", image: "/images/spaguetitomate.png" },
+  { name: "Spagheti au saucisse", category: "plats", description: "Spagheti au sauce tomate, accompagné des saucisse.", price: "500F", image: "/images/plat6.jpg" },
 ];
 
 function App() {
@@ -57,7 +69,7 @@ function App() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/plat2.jpg" alt="Mr Chef" />
+            <img src="/images/petitdejeuner.jpg" alt="Mr Chef" />
           </div>
         </section>
 
